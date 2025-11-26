@@ -1,0 +1,76 @@
+.todo-title {
+    margin-top: 40px;
+    text-align: center;
+    font-size: 30px;
+    color: red;
+    font-weight: bold;
+}
+
+.todo-item {
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid #ddd;
+    /* viền mỏng, màu xám nhạt */
+    border-radius: 8px;
+    /* bo góc mềm mại */
+    margin: 10px auto;
+    padding: 10px 10px;
+    width: 300px;
+    color: white;
+    background: linear-gradient(to right, #6a11cb, #2575fc);
+}
+
+.todo-list {}
+
+form {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn-add {
+    margin-left: 10px;
+    padding: 10px 20px;
+    background-color: #2575fc;
+    color: white;
+    border: none;
+    border-radius: 4px;
+}
+
+.btn-add:hover {
+    background-color: #6a11cb;
+}
+
+input {
+    width: 210px;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    background-color: aliceblue;
+}
+
+input:focus {
+    outline: none;
+    /* bỏ viền mặc định */
+    border-color: #007bff;
+    /* đổi màu viền */
+    box-shadow: 0 0 8px rgba(0, 123, 255, 0.5);
+    /* ánh sáng xanh */
+}
+
+#delete {
+    cursor: pointer;
+}
+
+#delete:hover {
+    background-color: red;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    transform: scale(1.5);
+}
+
+#delete img {
+    width: 15px;
+    height: 15px;
+}
