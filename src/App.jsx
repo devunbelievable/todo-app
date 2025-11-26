@@ -36,7 +36,7 @@ const App = () => {
           < DataComponent data={data} deleteToDo={deleteToDo} />
           :
           <div style={{ textAlign: "center", paddingTop: "10px" }}>
-            <img src={Todo_Image} alt="logo" />
+            <img src={Todo_Image} alt="logo" style={{ maxWidth: '100%', height: 'auto' }} />
           </div>
         }
       </div>
