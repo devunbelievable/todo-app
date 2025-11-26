@@ -4,6 +4,10 @@ Chào mừng bạn đến với ứng dụng Todo List đầu tiên của tôi!
 
 Đây là dự án đầu tay của tôi khi bắt đầu học React. Ứng dụng này là một công cụ quản lý công việc đơn giản, giúp bạn theo dõi các nhiệm vụ cần làm hàng ngày.
 
+## 🌐 Demo
+
+Bạn có thể xem demo trực tiếp của ứng dụng tại đây: [Todo List App](https://todo-app-devunbelievables-projects.vercel.app/)
+
 ## ✨ Tính năng
 
 *   Thêm công việc mới vào danh sách.
